@@ -1,26 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+
+/* Color Scheme
+*/
+:root {
+    --dark_blue: #131B28; 
+    --purple: #7C7287;
+}
+
 body {
     width: 80%;
     max-width: 600px;
     margin: auto;
+    color: #ffffff;
+    /* Background from https://www.pexels.com/photo/milky-way-illustration-1169754/ */
+    background: url(images/milky-way.jpg); 
+    background-repeat: none;
+    background-size: cover;
 }
 
 header {
     text-align: center;
-    background: #999999;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #main-form {
-    background-color: #cccccc;
+    background-color: var(--dark_blue);
     margin: auto;
     overflow: hidden;
     min-height: 300px;
     margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
 }
 
 #stats {
     display: flex;
+    justify-content: space-between;
+    background-color:  var(--purple);
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
-.item {
-    flex: 1;
+#button-holder {
+    display: flex;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    margin: auto;
 }
