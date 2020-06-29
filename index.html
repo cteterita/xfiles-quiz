@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Stylesheets -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>X-Files Monster Quiz</title>
 </head>
 <body>
-
-    <!-- View 1: Introduction -->
     <header>
         <h1>X-Files Monster Quiz</h1>
     </header>
     <main>
-        <div id="stats"  style="visibility: hidden">
+        <section id="stats"  style="visibility: hidden">
             <span class="item" id="question-number"></span>
             <span class="item" id="score"></span>
-        </div>
+        </section>
         <form class="group" id="main-form">
-            <div class="item" id="question-text">
-            </div>
+            <section class="item" id="question-text">
+                <!-- Javascript inserts text here -->
+            </section>
             <div class="item" id="button-holder">
                 <button type="submit"></button>
-            </div>
+            </section>
         </form>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
