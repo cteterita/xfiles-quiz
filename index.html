@@ -13,94 +13,19 @@
         <h1>X-Files Monster Quiz</h1>
     </header>
     <main>
-        <div id="stats" class="hidden">
-            <span class="item" id="question-number">Question: 0/10</span>
-            <span class="item" id="score">Score: 0</span>
+        <div id="stats"  style="visibility: hidden">
+            <span class="item" id="question-number"></span>
+            <span class="item" id="score"></span>
         </div>
         <form class="group" id="main-form">
             <div class="item" id="question-text">
-                <p>
-                Are you smarter than a Tulpa? Test your knowledge of the most infamous monsters from The X-Files!
-                </p>
             </div>
             <div class="item" id="button-holder">
-                <button type="button">Start</button>
+                <button type="submit"></button>
             </div>
         </form>
     </main>
-
-    <!-- View 2: Question -->
-    <header>
-        <h1>X-Files Monster Quiz</h1>
-    </header>
-    <main>
-        <div id="stats" class="hidden">
-            <span class="item" id="question-number">Question: 0/10</span>
-            <span class="item" id="score">Score: 0</span>
-        </div>
-        <form class="group" id="main-form">
-            <div class="item" id="question-text">
-                <p>
-                What is the answer to question 1?
-                </p>
-                <input type="radio" id="A" value="A">
-                <label for="A">Answer A</label><br>
-                <input type="radio" id="B" value="B">
-                <label for="B">Answer B</label><br>
-                <input type="radio" id="C" value="C">
-                <label for="C">Answer C</label><br>
-                <input type="radio" id="D" value="D">
-                <label for="D">Answer D</label><br>
-            </div>
-            <div class="item" id="button-holder">
-                <button type="button">Submit</button>
-            </div>
-        </form>
-    </main>
-
-    <!-- View 3: Answer Revealed -->
-    <header>
-        <h1>X-Files Monster Quiz</h1>
-    </header>
-    <main>
-        <div id="stats" class="hidden">
-            <span class="item" id="question-number">Question: 0/10</span>
-            <span class="item" id="score">Score: 0</span>
-        </div>
-        <form class="group" id="main-form">
-            <div class="item" id="question-text">
-                <p>
-                    Incorrect! 
-                </p>
-                <p>
-                    The correct answer is... Answer A
-                </p>
-            </div>
-            <div class="item" id="button-holder">
-                <button type="button">Submit</button>
-            </div>
-        </form>
-    </main>
-
-    <!-- View 4: Final Results-->
-    <header>
-        <h1>X-Files Monster Quiz</h1>
-    </header>
-    <main>
-        <div id="stats" class="hidden">
-            <span class="item" id="question-number">Question: 0/10</span>
-            <span class="item" id="score">Score: 0</span>
-        </div>
-        <form class="group" id="main-form">
-            <div class="item" id="question-text">
-                <p>
-                Great job! You got 7 out of 10 questions correct. Want to try again?
-                </p>
-            </div>
-            <div class="item" id="button-holder">
-                <button type="button">Restart</button>
-            </div>
-        </form>
-    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
